@@ -1,0 +1,103 @@
+svg {
+  align-content: center;
+  margin: auto;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+#green-mask,
+#blue-mask,
+#red-mask {
+    transition: all 1s ease;
+}
+svg {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+svg:hover #green-mask {
+    transform: translateX(20%);
+    opacity: 0;
+}
+svg:hover #blue-mask {
+    transform: translateX(40%);
+    opacity: 0;
+}
+svg:hover #red-mask {
+    transform: translateX(60%);
+    opacity: 0;
+}
+header:hover h1 {
+    opacity: 1;
+}
+header:hover p {
+    opacity: 1;
+}
+h1 {
+    position: absolute;
+    display: inline-block;
+    margin: auto;
+    margin-left: 35%;
+    margin-top: 0;
+    top: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75px;
+    text-align: center;
+    width: 380px;
+    opacity: 0;
+    color: black;
+
+}
+p {
+    position: absolute;
+    display: inline-block;
+    margin: auto;
+    left: 35%;
+    right: 45%;
+    text-align: center;
+    top: 65%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    opacity: 0;
+    width: 380px;
+  }
+
+body {
+    background-color: #9999cc;
+}
+/*unvisited link*/
+a:link {
+    color: #8cff84;
+  }
+/* visited link */
+a:visited {
+    color: #ff000f;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: black;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(130, 130, 255);
+  }
+
+  /* h1:hover {
+      opacity: 100;
+  }
+  p:hover {
+      opacity: 100;
+  } */
+
+/* .graphic {
+    background-color: #fff;
+    opacity: 100;
+}
+.text {
+    opacity: 100;
+}
+div.graphic:hover {
+    transition: all 2s ease;
+    opacity: 0;
+} */
